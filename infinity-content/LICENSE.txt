@@ -1,0 +1,4 @@
+﻿Copyright 2026 Infinity Lines of Code.
+Theme and companion plugin source code and original SVG illustrations are licensed under the GNU General Public License, version 2 or (at your option) any later version.
+See https://www.gnu.org/licenses/old-licenses/gpl-2.0.html for the license terms.
+Manrope and Inter font files are distributed under the SIL Open Font License; the full font licenses are in assets/fonts.

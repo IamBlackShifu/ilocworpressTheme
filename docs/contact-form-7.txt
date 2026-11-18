@@ -1,0 +1,12 @@
+﻿<div class="form-row">
+<p><label for="full-name">Full Name</label>[text* full-name id:full-name autocomplete:name]</p>
+<p><label for="company-name">Company Name</label>[text company-name id:company-name autocomplete:organization]</p>
+</div>
+<div class="form-row">
+<p><label for="business-email">Business Email</label>[email* business-email id:business-email autocomplete:email]</p>
+<p><label for="phone-number">Phone Number</label>[tel phone-number id:phone-number autocomplete:tel]</p>
+</div>
+<p><label for="service-required">Service Required</label>[select* service-required id:service-required first_as_label "Choose a service" "Cybersecurity Services" "Software Engineering" "Quality Engineering & Testing" "Cloud & Infrastructure" "IT Consulting & Digital Transformation" "Web Development & Digital Platforms" "Not sure yet"]</p>
+<p><label for="project-description">Project Description</label>[textarea* project-description id:project-description]</p>
+<p>[acceptance consent] I consent to Infinity Lines of Code using these details to respond to my enquiry. [/acceptance]</p>
+<p>[submit "Send enquiry"]</p>

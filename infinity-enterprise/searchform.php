@@ -1,0 +1,2 @@
+<?php if (!defined('ABSPATH')) { exit; } $search_id = wp_unique_id('search-'); ?>
+<form role="search" method="get" class="search-form" action="<?php echo esc_url(home_url('/')); ?>"><label for="<?php echo esc_attr($search_id); ?>"><?php esc_html_e('Search this website', 'infinity-enterprise'); ?></label><div><input id="<?php echo esc_attr($search_id); ?>" type="search" name="s" value="<?php echo esc_attr(get_search_query()); ?>" required><button type="submit"><?php esc_html_e('Search', 'infinity-enterprise'); ?></button></div></form>

@@ -1,0 +1,2 @@
+<?php if (!defined('ABSPATH')) { exit; } get_header(); ?>
+<section class="wrap section error-page"><p class="eyebrow">404</p><h1><?php esc_html_e('This page couldn’t be found.', 'infinity-enterprise'); ?></h1><p><?php esc_html_e('The link may have changed. Search the site or return to the homepage.', 'infinity-enterprise'); ?></p><?php get_search_form(); ?><p><a class="button" href="<?php echo esc_url(home_url('/')); ?>"><?php esc_html_e('Back to home', 'infinity-enterprise'); ?> ↗</a></p></section><?php get_footer(); ?>
